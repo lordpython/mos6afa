@@ -1,0 +1,12 @@
+specVersion: "v1beta"
+serviceId: "mos6afa"
+location: "us-central1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "fdcdb"
+      cloudSql:
+        instanceId: "mos6afa-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./connector"]
